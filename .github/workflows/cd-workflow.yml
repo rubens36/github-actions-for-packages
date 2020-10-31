@@ -41,8 +41,5 @@ jobs:
     - name: Build and push container image
       uses: docker/build-push-action@v2
       with:
-        context: .
-        file: ./Dockerfile
-        pull: true
         push: true
         tags: ghcr.io/${{ github.repository_owner }}/tic-tac-toe:latest
