@@ -70,4 +70,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: docker.pkg.github.com/${{ github.repository_owner }}/github-actions-for-packages/tic-tac-toe:latest
+        tags: docker.pkg.github.com/${{ github.repository_owner }}/github-actions-for-packages/tic-tac-toe
