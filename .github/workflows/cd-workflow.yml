@@ -1,7 +1,15 @@
+<<<<<<< HEAD:.github/cd-workflow.yml
 name: Docker CD
+=======
+# This file wont do us much good in this location, make sure you change the path as directed to continue!
+>>>>>>> 4783d31dfe90da67a0d00c0a93fe1c623e58468b:.github/ci-workflow.yml
 
-on: [push]
+name: Node CI
 
+on:
+  push:
+    paths:
+      - "**Dockerfile**"
 jobs:
   build:
     runs-on: ubuntu-latest
