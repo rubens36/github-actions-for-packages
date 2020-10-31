@@ -1,4 +1,4 @@
-#Comment to update
+#Comment to updates
 
 FROM nginx:1.17
 COPY . /usr/share/nginx/html
